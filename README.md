@@ -411,7 +411,7 @@ Monthly sales and order data were analyzed to identify overall sales trends and 
 
 ### Visualization
 
-![Monthly Sales and Orders Analysis](images/monthly_sales_orders.png)
+![Monthly Sales and Orders Analysis](Images/Monthly%20Sales%20order.png)
 
 ### Business Value
 
@@ -447,7 +447,7 @@ Customer orders were analyzed by gender after standardizing the original gender 
 
 ### Visualization
 
-![Sales and Orders by Gender](images/gender_analysis.png)
+![Sales and Orders by Gender](Images/Sales%20Men%20Women.png)
 
 ### Business Value
 
