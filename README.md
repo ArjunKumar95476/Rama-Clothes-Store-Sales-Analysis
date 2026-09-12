@@ -1,18 +1,14 @@
-# 📊 Rama Store — Annual Sales Analysis
+# 📊 Rama Clothes Store Annual Sales Analysis 2025
 
-## 📌 Project Overview
-
+## Project Overview
+![Project Overview](Images/Project%20View.png)
 **Rama Store Annual Sales Analysis** is an Excel-based data analytics project focused on understanding customer purchasing behavior, sales trends, product performance, and sales-channel performance.
 
 The objective of this project is to analyze **2025 sales data** and generate actionable insights that can help Rama Store understand its customers, identify high-performing products and regions, and develop strategies to increase sales in **2026**.
 
-The project follows a practical data analysis workflow:
-
-**Raw Data → Data Cleaning → Data Transformation → Analysis → Visualization → Business Insights**
-
 ---
 
-## 🎯 Business Objective
+## Business Objective
 
 Rama Store wants to understand its 2025 sales performance and customer purchasing behavior.
 
@@ -28,7 +24,7 @@ The analysis aims to:
 
 ---
 
-## ❓ Business Questions
+## Business Questions
 
 The analysis answers the following key business questions:
 
@@ -43,7 +39,7 @@ The analysis answers the following key business questions:
 
 ---
 
-# 📂 Dataset Overview
+## Dataset Overview
 
 The dataset contains:
 
@@ -76,33 +72,17 @@ The dataset contains:
 
 ---
 
-# 🧹 Data Preparation & Cleaning
+## Data Preparation & Cleaning
 
 Before performing the analysis, I created a working copy of the raw dataset.
 
 The original dataset was preserved as **Raw Data**, while the copied dataset was used for cleaning and analysis.
 
-### Workflow
-
-```text
-Raw Data
-   ↓
-Create Working Copy
-   ↓
-Data Cleaning
-   ↓
-Data Transformation
-   ↓
-Analysis
-   ↓
-Visualization / Dashboard
-```
-
 This approach ensures that the original dataset remains unchanged and can be referred to whenever required.
 
 ---
 
-## 🔍 Data Cleaning Process
+## Data Cleaning Process
 
 ### 1. Index
 
@@ -310,7 +290,7 @@ Since B2B analysis is outside the scope of the current business questions, this 
 
 ---
 
-# 🗑️ Columns Removed
+## Columns Removed
 
 The following columns were removed because they were not required for the current analysis:
 
@@ -324,11 +304,11 @@ Removing unnecessary columns keeps the working dataset focused on the business r
 
 ---
 
-# ⚙️ Data Transformation / Feature Engineering
+## Data Transformation / Feature Engineering
 
 After cleaning the dataset, additional features were created to support business analysis.
 
-## 👥 Age Group
+### Age Group
 
 The original `Age` column was transformed into meaningful customer segments.
 
@@ -352,7 +332,7 @@ Age Group can be used to identify:
 
 ---
 
-## 📅 Month
+## Month
 
 A Month feature was created from the order Date.
 
@@ -373,7 +353,7 @@ The Month feature is used for:
 
 ---
 
-# 📊 Exploratory Analysis
+## Exploratory Analysis
 
 The cleaned and transformed dataset was analyzed using Excel PivotTables, PivotCharts, formulas, and interactive filtering.
 
@@ -413,19 +393,195 @@ The analysis focuses on:
 
 ---
 
-# 📈 Visualization & Dashboard
+# 📊 Analysis & Visualization
 
-The analysis is presented through Excel-based charts and dashboard components.
+The cleaned dataset was analyzed using **Excel PivotTables, PivotCharts, formulas, and interactive filters** to answer the defined business questions.
 
-Key visualizations include:
+Each analysis focuses on a specific business requirement and is supported by a corresponding visualization.
 
-* 📊 Monthly Sales & Orders
-* 👥 Sales/Orders by Gender
-* 📦 Order Status Distribution
-* 🗺️ Top 10 States by Sales
-* 👨‍👩‍👧 Age Group vs Gender
-* 🛒 Sales by Channel
-* 📦 Sales by Category
+---
+
+## 1. 📅 Monthly Sales & Orders Analysis
+
+### Business Question
+
+**How do monthly sales and order volumes compare?**
+
+Monthly sales and order data were analyzed to identify overall sales trends and understand how order volume changed throughout 2025.
+
+### Visualization
+
+![Monthly Sales and Orders Analysis](images/monthly_sales_orders.png)
+
+### Business Value
+
+This analysis helps identify peak and low-performing months and supports seasonal sales planning.
+
+---
+
+## 2. 📈 Highest Sales & Orders by Month
+
+### Business Question
+
+**Which month generated the highest sales and the highest number of orders?**
+
+Monthly performance was compared using sales amount and order volume to identify the strongest-performing period of the year.
+
+### Visualization
+
+![Highest Sales and Orders by Month](images/highest_sales_orders_month.png)
+
+### Business Value
+
+Identifying high-performing months can help Rama Store plan inventory, promotions, and marketing campaigns more effectively.
+
+---
+
+## 3. 👥 Sales & Orders by Gender
+
+### Business Question
+
+**Who purchased more in 2025 — men or women?**
+
+Customer orders were analyzed by gender after standardizing the original gender values.
+
+### Visualization
+
+![Sales and Orders by Gender](images/gender_analysis.png)
+
+### Business Value
+
+This analysis helps identify the customer segment contributing the highest number of orders and supports targeted marketing strategies.
+
+---
+
+## 4. 📦 Order Status Analysis
+
+### Business Question
+
+**What are the different order statuses in 2025?**
+
+The distribution of orders across different statuses was analyzed to understand order outcomes.
+
+### Visualization
+
+![Order Status Analysis](images/order_status.png)
+
+### Business Value
+
+Understanding order-status patterns can help identify operational issues and improve order fulfillment performance.
+
+---
+
+## 5. 🗺️ Top 10 States by Sales
+
+### Business Question
+
+**Which are the top 10 states contributing to total sales?**
+
+State-wise sales were analyzed and ranked to identify the strongest geographic markets.
+
+### Visualization
+
+![Top 10 States by Sales](images/top_10_states.png)
+
+### Business Value
+
+The results can help Rama Store identify high-value markets and prioritize regional marketing and sales strategies.
+
+---
+
+## 6. 👨‍👩‍👧 Age Group vs Gender Analysis
+
+### Business Question
+
+**What is the relationship between age group and gender based on the number of orders?**
+
+Customers were segmented into:
+
+* **Teenager:** Age < 30
+* **Adult:** Age 30–49
+* **Senior:** Age ≥ 50
+
+Orders were then compared across age groups and gender.
+
+### Visualization
+
+![Age Group and Gender Analysis](images/age_group_gender.png)
+
+### Business Value
+
+This analysis helps identify customer segments with higher purchasing activity and can support more targeted campaigns.
+
+---
+
+## 7. 🛒 Sales Channel Analysis
+
+### Business Question
+
+**Which sales channel contributes the most to total sales?**
+
+Sales were compared across different sales channels to identify the channel generating the highest revenue contribution.
+
+### Visualization
+
+![Sales by Channel](images/sales_channel.png)
+
+### Business Value
+
+The analysis can help Rama Store understand which channels perform best and where additional marketing investment may generate stronger returns.
+
+---
+
+## 8. 📦 Category-wise Sales Analysis
+
+### Business Question
+
+**Which category has the highest sales?**
+
+Total sales were analyzed across product categories to identify the strongest-performing categories.
+
+### Visualization
+
+![Sales by Category](images/category_sales.png)
+
+### Business Value
+
+Understanding category performance can support inventory planning, product promotions, and category-level sales strategies.
+
+---
+
+# 📊 Excel Dashboard
+
+All major analyses were combined into an interactive Excel dashboard using:
+
+* PivotTables
+* PivotCharts
+* Slicers
+* Filters
+* KPI summaries
+* Data visualization
+
+### Dashboard Preview
+
+![Rama Store Sales Dashboard](images/rama_store_dashboard.png)
+
+The dashboard provides a consolidated view of **sales performance, customer behavior, order trends, geographic performance, sales channels, and product categories**.
+
+---
+
+# 💡 Key Business Insights
+
+The analysis provides a data-driven view of Rama Store's 2025 performance and can help management:
+
+* Identify peak sales periods
+* Understand customer purchasing behavior
+* Identify high-performing customer segments
+* Focus on high-value states
+* Optimize sales channels
+* Prioritize high-performing product categories
+* Monitor order-status patterns
+* Develop targeted strategies for increasing sales in 2026
 
 Interactive Excel features such as **PivotTables, PivotCharts, Slicers, and filters** can be used to allow users to explore the data dynamically.
 
