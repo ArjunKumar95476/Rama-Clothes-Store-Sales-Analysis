@@ -418,26 +418,7 @@ Monthly sales and order data were analyzed to identify overall sales trends and 
 This analysis helps identify peak and low-performing months and supports seasonal sales planning.
 
 ---
-
-## 2. 📈 Highest Sales & Orders by Month
-
-### Business Question
-
-**Which month generated the highest sales and the highest number of orders?**
-
-Monthly performance was compared using sales amount and order volume to identify the strongest-performing period of the year.
-
-### Visualization
-
-![Highest Sales and Orders by Month](images/highest_sales_orders_month.png)
-
-### Business Value
-
-Identifying high-performing months can help Rama Store plan inventory, promotions, and marketing campaigns more effectively.
-
----
-
-## 3. 👥 Sales & Orders by Gender
+## 2. 👥 Sales & Orders by Gender
 
 ### Business Question
 
@@ -455,7 +436,7 @@ This analysis helps identify the customer segment contributing the highest numbe
 
 ---
 
-## 4. 📦 Order Status Analysis
+## 3. 📦 Order Status Analysis
 
 ### Business Question
 
@@ -465,7 +446,7 @@ The distribution of orders across different statuses was analyzed to understand 
 
 ### Visualization
 
-![Order Status Analysis](images/order_status.png)
+![Order Status Analysis](Images/Order%20%20by%20Status.png)
 
 ### Business Value
 
