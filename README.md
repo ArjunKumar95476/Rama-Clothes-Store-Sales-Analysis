@@ -454,17 +454,17 @@ Understanding order-status patterns can help identify operational issues and imp
 
 ---
 
-## 5. 🗺️ Top 10 States by Sales
+## 4. 🗺️ Top 5 States by Sales
 
 ### Business Question
 
-**Which are the top 10 states contributing to total sales?**
+**Which are the top 5 states contributing to total sales?**
 
 State-wise sales were analyzed and ranked to identify the strongest geographic markets.
 
 ### Visualization
 
-![Top 10 States by Sales](images/top_10_states.png)
+![Top 10 States by Sales](Images/Top%205%20State.png)
 
 ### Business Value
 
@@ -472,7 +472,7 @@ The results can help Rama Store identify high-value markets and prioritize regio
 
 ---
 
-## 6. 👨‍👩‍👧 Age Group vs Gender Analysis
+## 5. 👨‍👩‍👧 Age Group vs Gender Analysis
 
 ### Business Question
 
@@ -488,7 +488,7 @@ Orders were then compared across age groups and gender.
 
 ### Visualization
 
-![Age Group and Gender Analysis](images/age_group_gender.png)
+![Age Group and Gender Analysis](Images/Age_Gender_Order.png)
 
 ### Business Value
 
@@ -496,7 +496,7 @@ This analysis helps identify customer segments with higher purchasing activity a
 
 ---
 
-## 7. 🛒 Sales Channel Analysis
+## 6. 🛒 Sales Channel Analysis
 
 ### Business Question
 
@@ -506,32 +506,13 @@ Sales were compared across different sales channels to identify the channel gene
 
 ### Visualization
 
-![Sales by Channel](images/sales_channel.png)
+![Sales by Channel](Images/Sales_Channel.png)
 
 ### Business Value
 
 The analysis can help Rama Store understand which channels perform best and where additional marketing investment may generate stronger returns.
 
 ---
-
-## 8. 📦 Category-wise Sales Analysis
-
-### Business Question
-
-**Which category has the highest sales?**
-
-Total sales were analyzed across product categories to identify the strongest-performing categories.
-
-### Visualization
-
-![Sales by Category](images/category_sales.png)
-
-### Business Value
-
-Understanding category performance can support inventory planning, product promotions, and category-level sales strategies.
-
----
-
 # 📊 Excel Dashboard
 
 All major analyses were combined into an interactive Excel dashboard using:
