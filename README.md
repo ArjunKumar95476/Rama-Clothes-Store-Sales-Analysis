@@ -444,7 +444,7 @@ The dashboard provides a consolidated view of **sales performance, customer beha
 * Women customers contribute 64% of total purchases, indicating higher purchasing activity compared to men.
 * Maharashtra, Karnataka, and Uttar Pradesh are the top 3 contributing states, together accounting for approximately 35% of total sales.
 * Adult customers aged 30–49 years are the highest-contributing age group, contributing around 50% of total purchases.
-* Amazon, Flipkart, and Myntra are the top-performing sales channels, contributing approximately 80% of total purchases.
+* Amazon, Flipkart, and Myntra are the top-performing sales channels, contributing approximately 81% of total purchases.
 
 These insights can support data-driven decisions for improving sales performance in 2026.
 
