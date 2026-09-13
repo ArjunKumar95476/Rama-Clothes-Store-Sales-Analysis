@@ -418,7 +418,7 @@ Monthly sales and order data were analyzed to identify overall sales trends and 
 This analysis helps identify peak and low-performing months and supports seasonal sales planning.
 
 ---
-## 2. 👥 Sales & Orders by Gender
+## 2. 👥 Sales by Gender
 
 ### Business Question
 
@@ -446,7 +446,7 @@ The distribution of orders across different statuses was analyzed to understand 
 
 ### Visualization
 
-![Order Status Analysis](Images/Order%20%20by%20Status.png)
+![Order Status Analysis](Images/Order%20%by%20Status.png)
 
 ### Business Value
 
